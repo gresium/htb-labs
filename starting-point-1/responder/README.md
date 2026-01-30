@@ -46,4 +46,34 @@ The lab focuses on abusing misconfigurations to capture NetNTLMv2 hashes and reu
 
 ## Credentials
 - **Username:** `administrator`
-- **Passw**
+- **Password:** `badminton`
+
+---
+
+## Privileged Access
+- **Remote Service:** Windows Remote Management (WinRM)
+- **Port:** `5985`
+- **Result:** Full administrative access obtained
+
+---
+
+## Tools Used
+- Nmap
+- Responder
+- John the Ripper
+- curl / browser
+- Evil-WinRM
+
+---
+
+## Learning Outcome
+This machine demonstrates how:
+- File inclusion bugs lead to credential theft
+- NTLM authentication can be abused on internal networks
+- Captured hashes can be cracked and reused
+- Misconfigurations chain into full system compromise
+
+---
+
+## Machine Status
+✅ Root flag owned  
